@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Register</title>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="back-home">⬅ Back to Home</a>
+      <h1>Register</h1>
+    </nav>
+  </header>
+
+  <main>
+    <form id="registerForm" class="form-container">
+      <h2>Customer Details</h2>
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="text" id="phone" placeholder="Phone" required />
+
+      <h2>Vehicle Details</h2>
+      <input type="text" id="registrationNumber" placeholder="Registration Number" required />
+      <input type="text" id="type" placeholder="Type (Car/Bike)" required />
+      <input type="text" id="model" placeholder="Model" required />
+      <input type="text" id="color" placeholder="Color" required />
+
+      <button type="submit">Register</button>
+    </form>
+  </main>
+
+  <script src="js/register.js"></script>
+</body>
+</html>
